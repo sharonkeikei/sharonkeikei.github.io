@@ -1,0 +1,68 @@
+header {
+  background-image: url("../images/macarons.jpeg");
+  color: snow;
+}
+header nav a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin-right: 10px;
+  font-size: 1.25rem;
+}
+
+.button:hover {
+  background-color: maroon;
+}
+
+.profile {
+  padding: 20px;
+  width: 250px;
+  transform: rotate(0deg);
+  border-radius: 100%;
+}
+
+.chopper {
+  padding:  20px;
+  width: 300px;
+  transform: rotate(90deg);
+  border-radius: 20%;
+}
+
+.tao {
+  padding:  20px;
+  width: 225px;
+  border-radius: 20%;
+}
+
+.us {
+  padding:  20px;
+  width: 300px;
+  transform: rotate(90deg);
+  border-radius: 20%;
+}
+
+.goal {
+  padding: 20px;
+  width: 225px;
+  border-radius: 20%;
+}
+
+main {
+  background-color: cornsilk;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: purple 20px;
+}
+
+section {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+footer {
+  background-color: palegoldenrod;
+  padding: 50px;
+}

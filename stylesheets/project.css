@@ -1,0 +1,42 @@
+
+.btn:hover {
+  background-color: lavenderblush;
+}
+header {
+  background-image: url("../images/keyboard.jpeg");
+  color: rebeccapurple;
+}
+
+header nav a {
+  text-decoration: none;
+  color: rebeccapurple;
+  margin-right: 10px;
+  font-size: 1.25rem;
+}
+
+.button:hover {
+  background-color: plum;
+}
+
+footer {
+  background-color: powderblue;
+  padding: 50px;
+
+}
+
+main{
+  background-image: url("../images/star.jpeg");
+  background-size: cover;
+
+}
+
+.intro {
+  margin: 50px;
+  text-align: center;
+
+}
+
+.project {
+  margin: 70px;
+  padding: 20px;
+}

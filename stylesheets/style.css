@@ -1,0 +1,75 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Overpass';
+  }
+
+body {
+  font-family: 'Overpass';
+}
+
+header {
+  position: relative;
+  height: 250px;
+  padding: 20px;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+header h1 {
+  margin-bottom: 20px;
+  position: absolute;
+  bottom: 100;
+}
+
+header nav {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+header nav a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.button:hover {
+  background-color: lavenderblush;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+
+.flex-items {
+  background: lavenderblush;
+  padding: 10px;
+  width: 200px;
+  height: 150 px;
+  margin-top: 10px;
+}
+
+.contacts h3{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin-top: 50 px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.contacts ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+}
